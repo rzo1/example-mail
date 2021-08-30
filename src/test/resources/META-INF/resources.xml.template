@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO Update Mail Session Config -->
+    <Resource id="tomee/mail/exampleSMTP" type="javax.mail.Session">
+        mail.debug=true
+        mail.transport.protocol=smtp
+        mail.smtp.starttls.enable=true
+        mail.smtp.starttls.required=true
+        <!-- TODO enable to test specific protocols -->
+        <!-- mail.smtp.ssl.protocols=TLSv1.2 TLSv1.3 -->
+        mail.smtp.host=mail.mymailprovider.com
+        mail.smtp.port=587
+        mail.smtp.auth=true
+        mail.smtp.user=myself@mymailprovider.com
+        <!-- your password, and not 'mail.smtp.password' -->
+        password=mypassword
+    </Resource>
+</resources>

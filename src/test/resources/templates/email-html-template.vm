@@ -1,0 +1,8 @@
+Dear Admins, </p>
+
+<span style="font-weight:bold">
+This is an error email<p/>
+</span>
+<span style="color:red">
+    ${exceptionDetails}
+</span>
